@@ -1,0 +1,494 @@
+http://www.brasil.gov.br/
+http://www2.planalto.gov.br/
+http://www2.planalto.gov.br/favicon.ico
+http://www2.planalto.gov.br/111110101010102000000022000000052000000002c5bef97a200000096300000000300000000300000006/TSPD/300000008TSPD_101300000004http200000000200000000
+http://www2.planalto.gov.br/TSPD/08282a9212ab2000c32a959f29bdfd7a1a080696bc0c56d2396b34b6b0ec6c47d15d8fddf0ee8182?type=7
+http://www.brasil.gov.br/favicon.ico
+http://www.brasil.gov.br/111110101010102000000022000000052000000002d18de820200000096300000000300000000300000006/TSPD/300000008TSPD_101300000004http200000000200000000
+http://www.brasil.gov.br/TSPD/08282a9212ab2000c32a959f29bdfd7a1a080696bc0c56d2396b34b6b0ec6c47d15d8fddf0ee8182?type=7
+http://www.brasil.gov.br/favicon.ico
+http://www.brasil.gov.br/
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/reset-cachekey-67cb16be53fcfc2de750ae2ea54b82a1.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/base-cachekey-148a3685e658add908d4262943ada151.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.dateinput-cachekey-6a1cfa501aa94c1c07689b5a7de7df4a.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.autocompletejquery.autocomplete-cachekey-426b1a97733ac3df1423eb8d3a43e4c3.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourcecollection-cachekey-e3356e77773e91f162fb738a174d7197.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/jquery.autocomplete-cachekey-0c22a66fae9e6ca064dae60d02b07040.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourceProducts.Doormat.stylesheetsdoormat-cachekey-d35840c58ad35c87cfe46baf9210b837.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/embedder-cachekey-3c6b8b50a73207c676526c67378fb628.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourcecollective.nitfcharcount-cachekey-9b1be88b41a7eed893bfaf4117cbca96.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/ploneCustom-cachekey-62287bb18f024af56e04725b7bfb6a97.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourcecollective.uploadcssbootstrap.min-cachekey-22a99bd7116ea706320f3d62078a2937.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/IEFixes-cachekey-6384544eb04b79a5cd59a6c194436f92.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourcesecom.brasil.portalmain-cachekey-762af61f52a6b6b48e64471f65a72db5.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/brasil.gov.custom-cachekey-850a34aec7c937c53041fe1baf4d0261.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourcecollective.z3cform.datagridfielddatagridfield-cachekey-71bdd7e79bff0def628622f71567d8b0.css
+http://www.brasil.gov.br/portal_css/Sunburst%20Theme/resourcebrasil.gov.portletscssmain-cachekey-c303769ad4a16c0f2f5f915f58976696.css
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-add42299a6c3ee293e1201c539a82c4b.js
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.querystring.querywidget-cachekey-c8ceec3af223fd506a51c8c7982a7636.js
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.contenttreecontenttree-cachekey-dbe7abc1e0efb60ec8e571c244b2c528.js
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.coverbootstrap.min-cachekey-7fe11658ac59751b7b5076597e3f2596.js
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.nitfnitf_fixes-cachekey-6750a546645cd4510279299a131a94d0.js
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.pollsjsexcanvas.min-cachekey-1dd7f1c6e92226a89ffa4f1bdc96ae8d.js
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.pollsjspolls-cachekey-4d5215c4c52c52cf7f37a1d8c53d0dac.js
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourcejquery.cookie-cachekey-20dd71fcc2c5fde24ae7b32fe0a971a1.js
+http://www.brasil.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.z3cform.datagridfielddatagridfield-cachekey-9fb6de25edc7843f9623241189841843.js
+http://vocab.e.gov.br/2011/03/vcge
+http://www.brasil.gov.br/author/
+http://www.brasil.gov.br/
+http://www.brasil.gov.br/@@oembed?url=http%3A%2F%2Fwww.brasil.gov.br&amp;format=json
+http://www.brasil.gov.br/@@oembed?url=http%3A%2F%2Fwww.brasil.gov.br&amp;format=xml
+http://www.brasil.gov.br/dd/mm/yy
+http://www.brasil.gov.br/RSS
+http://www.brasil.gov.br/rss.xml
+http://www.brasil.gov.br/atom.xml
+http://www.brasil.gov.br/@@search
+http://www.brasil.gov.br/++theme++tema-verde-novo-governo/img/favicon.ico
+http://www.brasil.gov.br/++theme++tema-verde-novo-governo/img/touch_icon.png
+http://www.brasil.gov.br/++theme++tema-verde-novo-governo/css/style.css
+http://www.brasil.gov.br/++theme++tema-verde-novo-governo/js/utils.js
+http://brasil.gov.br/
+http://barra.brasil.gov.br/barra.js
+http://www.brasil.gov.br/
+http://www.brazilgovnews.gov.br/
+http://www.brasil.gov.br/acessibilidade
+http://www.brasil.gov.br/mapadosite
+http://www.brasil.gov.br/@@busca
+http://www.brasil.gov.br/rss
+http://www.brasil.gov.br/servicos/perguntas-frequentes-1
+http://www.brasil.gov.br/servicos/fale-com-o-governo
+http://www.brasil.gov.br/servicos/fale-com-o-presidente
+http://www.brasil.gov.br/contact-info
+http://www.brasil.gov.br/esporte/2010/05/selecao-brasileira
+http://www.brasil.gov.br/esporte/2010/07/selecao-brasileira
+http://www.brasil.gov.br/esporte/2013/11/selecao-tem-saldo-positivo-na-preparacao-para-copa-2014
+http://www.brasil.gov.br/esporte/2014/02/faltam-menos-de-quatro-meses-para-o-inicio-da-copa-do-mundo
+http://www.brasil.gov.br/esporte/2014/06/selecao-brasileira-venceu-as-ultimas-oito-estreias-em-copa-do-mundo
+http://www.brasil.gov.br/economia-e-emprego/2012/03/banco-do-brasil-e-wwf-brasil-promovem-treinamento-em-biodiversidade
+http://www.brasil.gov.br/esporte/2010/06/importancia-de-mostrar-o-brasil-em-2014
+http://www.brasil.gov.br/esporte/2010/06/casa-brasil-inicia-promocao-do-pais-na-africa-2
+http://www.brasil.gov.br/cultura/2016/09/editais-de-patrocinio-a-cultura-aceitam-inscricoes-ate-dia-26
+http://www.brasil.gov.br/esporte/2014/04/fifa-relembra-mundial-de-1954-na-contagem-regressiva-para-a-copa
+http://www.brasil.gov.br/cidadania-e-justica
+http://www.brasil.gov.br/ciencia-e-tecnologia
+http://www.brasil.gov.br/cultura
+http://www.brasil.gov.br/defesa-e-seguranca
+http://www.brasil.gov.br/economia-e-emprego
+http://www.brasil.gov.br/educacao
+http://www.brasil.gov.br/esporte
+http://www.brasil.gov.br/governo
+http://www.brasil.gov.br/infraestrutura
+http://www.brasil.gov.br/meio-ambiente
+http://www.brasil.gov.br/saude
+http://www.brasil.gov.br/turismo
+http://www.brasil.gov.br/servicos/contato-1
+http://www.brasil.gov.br/relatar-erros
+http://www.brasil.gov.br/redes-sociais-regras-de-uso
+http://www.brasil.gov.br/lancamento
+http://www.acessoainformacao.gov.br/
+http://www.brasil.gov.br/++theme++tema-verde-novo-governo/img/acesso-a-informacao2.png
+http://www.brasil.gov.br/++theme++tema-verde-novo-governo/img/brasil2.png
+http://estatisticas.presidencia.gov.br/
+http://www.brasil.gov.br/piwik.php
+http://www.brasil.gov.br/piwik.js
+http://brasil.gov.br/
+http://www2.planalto.gov.br/favicon.ico
+http://www2.planalto.gov.br/
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourcejquery-cachekey-2ae1d82fc61a62be908901e93f3670fc.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/reset-cachekey-a6f12458ec84b3d7f1383805af31df48.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/base-cachekey-f53370c18d909f47d05e194ee0627d79.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourceplone.app.jquerytools.dateinput-cachekey-d8b36d2bb8777219c438977cec03d3d1.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourceplone.formwidget.autocompletejquery.autocomplete-cachekey-2f5be38aafb6673c603e0e473e66fabb.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourcecollection-cachekey-727c59c647e5439489a44fd8f95b2c36.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/jquery.autocomplete-cachekey-d572186c09e6782ce0df4af90321ad16.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourceProducts.Doormat.stylesheetsdoormat-cachekey-cff73c04255ad19cde03db49338f5353.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/embedder-cachekey-5151752a0a59af5f7060a3fe6579a95b.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourcecollective.nitfcharcount-cachekey-231c7b931d0c93ec1661f3ae07ebfb64.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/ploneCustom-cachekey-76b5a6689235e5d1010e1dc8d16165de.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourcecollective.uploadcssbootstrap.min-cachekey-31cc98de50e050b2080a4debc5d0c921.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/IEFixes-cachekey-57773a48695f8c0c4bee5d16071018df.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourcebrasil.gov.agendaagenda-print-cachekey-c7fc55f9baed69d3f987753144c38811.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourcecalendar_stylescalendar-cachekey-d541d25a3b34477f5aca4862de8dea96.css
+http://www2.planalto.gov.br/portal_css/brasil_gov_facetada/resourcebrasil.gov.facetadacssmain-cachekey-2ab221b5ac396e64bc1b55f84c5c8350.css
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourceplone.app.jquery-cachekey-c26a5c5530de8a6ba5ad13a3b9095d20.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourceplone.formwidget.querystring.querywidget-cachekey-39c2f16d88587244db6b46ea4a79862c.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourceplone.formwidget.contenttreecontenttree-cachekey-a03961184346856e7a5187de69ab118d.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourcecollective.js.bootstrapjsbootstrap.min-cachekey-434d90324688f599aa9aaac9e9643e2d.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourcecollective.nitfnitf_fixes-cachekey-3170b4b8661d0fd5dac3acf7e7e08c3d.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourcecollective.pollsjsexcanvas.min-cachekey-9cc6c011973bac615b504eb6ab8a3de2.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourcecollective.pollsjspolls-cachekey-29593c624f51f70c9f4698c1a926e6be.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourcejquery.cookie-cachekey-cecc95eac2cb04b348efbcaa43c8e82f.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/faceted_view-cachekey-89f79795296a9e4e52f49701cea0284c.js
+http://www2.planalto.gov.br/portal_javascripts/brasil_gov_facetada/resourcebrasil.gov.facetadajsmain-cachekey-c0806906232ac64590111e895e29c5c9.js
+http://vocab.e.gov.br/2011/03/vcge
+http://www2.planalto.gov.br/author/
+http://www2.planalto.gov.br/
+http://www2.planalto.gov.br/@@oembed?url=http%3A%2F%2Fwww2.planalto.gov.br&amp;format=json
+http://www2.planalto.gov.br/@@oembed?url=http%3A%2F%2Fwww2.planalto.gov.br&amp;format=xml
+http://www2.planalto.gov.br/dd/mm/yy
+http://www2.planalto.gov.br/RSS
+http://www2.planalto.gov.br/rss.xml
+http://www2.planalto.gov.br/atom.xml
+http://www2.planalto.gov.br/@@search
+http://www2.planalto.gov.br/++theme++tema-azul-rodape-novo-governo/img/favicon.ico
+http://www2.planalto.gov.br/++theme++tema-azul-rodape-novo-governo/img/touch_icon.png
+http://www2.planalto.gov.br/++theme++tema-azul-rodape-novo-governo/css/style.css
+http://brasil.gov.br/
+http://barra.brasil.gov.br/barra.js
+http://www2.planalto.gov.br/
+http://www.brazilgovnews.gov.br/
+http://www2.planalto.gov.br/acessibilidade
+http://www2.planalto.gov.br/mapadosite
+http://www2.planalto.gov.br/@@busca
+http://www2.planalto.gov.br/servicos/contato
+http://www2.planalto.gov.br/servicos/area-de-imprensa
+http://www2.planalto.gov.br/servicos/ouvidoria
+http://www2.planalto.gov.br/servicos/fale-com-o-presidente
+http://www2.planalto.gov.br/contact-info
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-08-30
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-08-03
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-10-03
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-10-26
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-12-20
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-12-20
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-09-26
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-07-04
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-06-22
+http://www2.planalto.gov.br/gabinete-pessoal-da-republica/agendas/gabinete-adjunto-de-apoio-a-decisao/agenda-do-chefe-de-gabinete-adjunto/2017-09-13
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente
+http://www2.planalto.gov.br/acompanhe-planalto/discursos
+http://www2.planalto.gov.br/acompanhe-planalto/noticias
+http://www2.planalto.gov.br/acompanhe-planalto/notas-oficiais
+http://www.portalplanalto.gov.br/acompanhe-planalto/entrevistas
+http://www2.planalto.gov.br/presidencia/ministros
+http://www2.planalto.gov.br/presidencia/palacios-e-residencias-oficiais
+http://www2.planalto.gov.br/presidencia/ritos-e-cerimonias
+http://www2.planalto.gov.br/presidencia/principais-tropas
+http://www2.planalto.gov.br/relatar-erros
+http://www2.planalto.gov.br/acervo/simbolos-nacionais
+http://www2.planalto.gov.br/acervo/constituicao-federal
+http://www2.planalto.gov.br/acervo/legislacao
+http://www2.planalto.gov.br/acervo/galeria-de-presidentes
+http://www2.planalto.gov.br/acervo/biblioteca-da-presidencia
+http://www2.planalto.gov.br/redes-sociais-regras-de-uso
+http://www2.planalto.gov.br/sobre-o-portal-do-planalto
+http://www2.planalto.gov.br/termos-de-uso/termos-de-uso
+http://www2.planalto.gov.br/politica-de-privacidade/politica-de-privacidade
+http://www2.planalto.gov.br/rss/rss
+http://www.acessoainformacao.gov.br/
+http://www2.planalto.gov.br/++theme++tema-azul-rodape-novo-governo/img/acesso-a-informacao2.png
+http://www.brasil.gov.br/
+http://www2.planalto.gov.br/++theme++tema-azul-rodape-novo-governo/img/brasil2.png
+http://estatisticas.presidencia.gov.br/
+http://www2.planalto.gov.br/piwik.php
+http://www2.planalto.gov.br/piwik.js
+http://planalto.gov.br/
+
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/perguntas-frequentes-1.
+http://www.brasil.gov.br/servicos/perguntas-frequentes
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-governo.
+http://www.brasil.gov.br/servicos/contato
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-presidente.
+http://www2.planalto.gov.br/fale-com-o-presidente/fale-com-o-presidente
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/perguntas-frequentes-1.
+http://www.brasil.gov.br/servicos/perguntas-frequentes
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-governo.
+http://www.brasil.gov.br/servicos/contato
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-presidente.
+http://www2.planalto.gov.br/fale-com-o-presidente/fale-com-o-presidente
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/perguntas-frequentes-1.
+http://www.brasil.gov.br/servicos/perguntas-frequentes
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-governo.
+http://www.brasil.gov.br/servicos/contato
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-presidente.
+http://www2.planalto.gov.br/fale-com-o-presidente/fale-com-o-presidente
+# Heritrix added seed redirect from http://www.brasil.gov.br/redes-sociais-regras-de-uso.
+http://www.brasil.gov.br/conheca-as-regras-de-uso-das-redes-sociais-do-governo-do-brasil
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/perguntas-frequentes-1.
+http://www.brasil.gov.br/servicos/perguntas-frequentes
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-governo.
+http://www.brasil.gov.br/servicos/contato
+# Heritrix added seed redirect from http://www2.planalto.gov.br/servicos/contato.
+http://www2.planalto.gov.br/lista-de-contato-dos-ministerios
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-presidente.
+http://www2.planalto.gov.br/fale-com-o-presidente/fale-com-o-presidente
+# Heritrix added seed redirect from http://www2.planalto.gov.br/servicos/area-de-imprensa.
+http://www2.planalto.gov.br/area-de-imprensa
+# Heritrix added seed redirect from http://www2.planalto.gov.br/servicos/ouvidoria.
+http://www.secretariageral.gov.br/assuntos/controle-interno/ouvidoria
+# Heritrix added seed redirect from http://www2.planalto.gov.br/servicos/fale-com-o-presidente.
+http://www2.planalto.gov.br/fale-com-o-presidente/fale-com-o-presidente
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-08-30.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-08-30?month:int=8&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-08-03.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-08-03?month:int=8&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-10-03.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-10-03?month:int=10&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-10-26.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-10-26?month:int=10&year:int=2016
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-12-20.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-12-20?month:int=12&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-12-20.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-12-20?month:int=12&year:int=2016
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-09-26.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-09-26?month:int=9&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-07-04.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-07-04?month:int=7&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-06-22.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-06-22?month:int=6&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/gabinete-pessoal-da-republica/agendas/gabinete-adjunto-de-apoio-a-decisao/agenda-do-chefe-de-gabinete-adjunto/2017-09-13.
+http://www2.planalto.gov.br/gabinete-pessoal-da-republica/agendas/gabinete-adjunto-de-apoio-a-decisao/agenda-do-chefe-de-gabinete-adjunto/2017-09-13?month:int=9&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente.
+https://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer
+# Heritrix added seed redirect from http://www.brasil.gov.br/redes-sociais-regras-de-uso.
+http://www.brasil.gov.br/conheca-as-regras-de-uso-das-redes-sociais-do-governo-do-brasil
+# Heritrix added seed redirect from http://www2.planalto.gov.br/redes-sociais-regras-de-uso.
+http://www2.planalto.gov.br/conheca-as-regras-de-uso-das-redes-sociais-do-planalto
+# Heritrix added seed redirect from http://www2.planalto.gov.br/sobre-o-portal-do-planalto.
+http://www2.planalto.gov.br/sobre-o-portal-planalto
+# Heritrix added seed redirect from https://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer.
+https://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2018-01-05?month:int=1&year:int=2018
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/perguntas-frequentes-1.
+http://www.brasil.gov.br/servicos/perguntas-frequentes
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-governo.
+http://www.brasil.gov.br/servicos/contato
+# Heritrix added seed redirect from http://www.brasil.gov.br/servicos/fale-com-o-presidente.
+http://www2.planalto.gov.br/fale-com-o-presidente/fale-com-o-presidente
+# Heritrix added seed redirect from http://www2.planalto.gov.br/servicos/contato.
+http://www2.planalto.gov.br/lista-de-contato-dos-ministerios
+# Heritrix added seed redirect from http://www2.planalto.gov.br/servicos/area-de-imprensa.
+http://www2.planalto.gov.br/area-de-imprensa
+# Heritrix added seed redirect from http://www2.planalto.gov.br/servicos/ouvidoria.
+http://www.secretariageral.gov.br/assuntos/controle-interno/ouvidoria
+# Heritrix added seed redirect from http://www2.planalto.gov.br/servicos/fale-com-o-presidente.
+http://www2.planalto.gov.br/fale-com-o-presidente/fale-com-o-presidente
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-08-30.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-08-30?month:int=8&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-08-03.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-08-03?month:int=8&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-10-03.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-10-03?month:int=10&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-10-26.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-10-26?month:int=10&year:int=2016
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-12-20.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-12-20?month:int=12&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-12-20.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2016-12-20?month:int=12&year:int=2016
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-09-26.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-09-26?month:int=9&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-07-04.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2017-07-04?month:int=7&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-06-22.
+http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente-em-exercicio/2017-06-22?month:int=6&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/gabinete-pessoal-da-republica/agendas/gabinete-adjunto-de-apoio-a-decisao/agenda-do-chefe-de-gabinete-adjunto/2017-09-13.
+http://www2.planalto.gov.br/gabinete-pessoal-da-republica/agendas/gabinete-adjunto-de-apoio-a-decisao/agenda-do-chefe-de-gabinete-adjunto/2017-09-13?month:int=9&year:int=2017
+# Heritrix added seed redirect from http://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente.
+https://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer
+# Heritrix added seed redirect from http://www.brasil.gov.br/redes-sociais-regras-de-uso.
+http://www.brasil.gov.br/conheca-as-regras-de-uso-das-redes-sociais-do-governo-do-brasil
+# Heritrix added seed redirect from http://www2.planalto.gov.br/redes-sociais-regras-de-uso.
+http://www2.planalto.gov.br/conheca-as-regras-de-uso-das-redes-sociais-do-planalto
+# Heritrix added seed redirect from http://www2.planalto.gov.br/sobre-o-portal-do-planalto.
+http://www2.planalto.gov.br/sobre-o-portal-planalto
+# Heritrix added seed redirect from https://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer.
+https://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2018-01-05?month:int=1&year:int=2018
+# Heritrix added seed redirect from https://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer.
+https://www2.planalto.gov.br/acompanhe-planalto/agenda-do-presidente/agenda-do-presidente-michel-temer/2018-01-05?month:int=1&year:int=2018
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://vocab.e.gov.br/2011/03/vcge.
+http://vocab.e.gov.br/2011/03/vcge.html
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
+# Heritrix added seed redirect from http://planalto.gov.br/.
+http://www2.planalto.gov.br/
+# Heritrix added seed redirect from http://barra.brasil.gov.br/barra.js.
+http://barra.brasil.gov.br/barra.js.pt-br
