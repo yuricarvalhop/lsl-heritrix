@@ -1,6 +1,6 @@
-migration:
-    clients:
-      default:
-        database: heritrix_urls
-        hosts:
-          - localhost:27017
+development:
+  clients:
+    default:
+      database: heritrix_urls
+      hosts:
+        - localhost:27017
