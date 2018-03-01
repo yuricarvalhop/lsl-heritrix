@@ -8,6 +8,7 @@ class Crawl
   include Mongoid::Attributes::Dynamic
   store_in collection: "coletas"
 
+  has_and_belongs_to_many :pages
   field :crawl_id,       type: Integer
   field :pagina_id,      type: String
   field :warc_date,      type: Time,    default: ->{ Time.now }
@@ -35,11 +36,15 @@ class Page
   include Mongoid::Attributes::Dynamic
   store_in collection: "paginas"
 
+  has_and_belongs_to_many :crawls
+
   field :crawl_id,              type: Integer
   field :url,                   type: String
   field :content,               type: String
   field :distance,              type: Float,    default: nil
+  field :size,                  type: Array
   field :crawl_status,          type: Integer,  default: 0
+  field :previous_collection_t, type: Integer
   field :next_collection_t,     type: Integer
 
   def request_success?

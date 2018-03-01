@@ -21,18 +21,18 @@ require_relative 'hashReader/model'
 class DynWebStats
 
   def initialize config, crawl: nil
-    DynWebStats.load_mongoid_config
+    DynWebStats.load_mongoid_config config
 
     @config = crawl ? Config.find(crawl) : Config.last
   end
 
   def self.new_crawl config, capacity, info, seeds
-    DynWebStats.load_mongoid_config
+    DynWebStats.load_mongoid_config config
     Config.create!(capacity: capacity, instant: 1,
                    info: info, seeds: seeds)
 
     # gera o primeiro seeds
-    generate_crawl_file seeds, 1
+    #generate_crawl_file seeds, 1
 
     # cria estrutura interna de coleta
     # chama o run pra realizar o crawl
@@ -46,7 +46,6 @@ class DynWebStats
 
   # decide o que coletar
   def scheduler
-
   end
 
   def run
@@ -66,7 +65,7 @@ class DynWebStats
     f.close
   end
 
-  def self.load_mongoid_config
+  def self.load_mongoid_config config
     Mongoid.load!(config, :development)
   end
 end
