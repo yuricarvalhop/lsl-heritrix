@@ -21,20 +21,35 @@ require_relative 'hashReader/model'
 class DynWebStats
 
   def initialize config, crawl: nil
-    Mongoid.load!(config, :development)
+    DynWebStats.load_mongoid_config
+
     @config = crawl ? Config.find(crawl) : Config.last
   end
 
   def self.new_crawl config, capacity, info, seeds
-    Mongoid.load!(config, :development)
+    DynWebStats.load_mongoid_config
     Config.create!(capacity: capacity, instant: 1,
                    info: info, seeds: seeds)
-    # colocar as seeds nas páginas
+
+    # gera o primeiro seeds
+    generate_crawl_file seeds, 1
+
+    # cria estrutura interna de coleta
+    # chama o run pra realizar o crawl
+  end
+
+  # gera estrutura interna de coleta a partir do db
+  def get_pages_to_crawl
+    t = @config.instant
+    crawl.last.pages.where(next_crawl_t: t)
+  end
+
+  # decide o que coletar
+  def scheduler
+
   end
 
   def run
-    t = @config.instant
-    crawl.last.pages.where(next_crawl_t: t)
   end
 
   # funções:
@@ -45,9 +60,19 @@ class DynWebStats
   #   dado um array de páginas, cria a conf do heritrix
   #   filtra fixo gov.br
 
+  def generate_crawl_file pages, instant
+    f = File.open("#{instant}_seeds.txt", "w")
+    pages.each{|p| f << p << "\n"}
+    f.close
+  end
 
-
+  def self.load_mongoid_config
+    Mongoid.load!(config, :development)
+  end
 end
 
 DynWebStats.new_crawl(ARGV[0], 1000, "olar", ["www.google.com"])
 binding.pry
+
+# primeira coleta   -> cria estrutura interna de coleta -> scheduler -> run -> pós processa resultado
+# proximas coletas  -> pega dados do db e coloca na estrutura de coleta -> scheduler -> run -> pós processa resultado
