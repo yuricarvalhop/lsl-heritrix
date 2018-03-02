@@ -41,7 +41,7 @@ def execute_action action, sleep_time=1
 
   while !result_page.include?($status[:"#{action}"]) && !crawl_error?(action)
     sleep(sleep_time * 60)
-    result_page = curl_crawl
+    result_page = curl_crawl action
   end
 
   return !crawl_error?(action)

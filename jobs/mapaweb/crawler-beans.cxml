@@ -100,7 +100,7 @@ http://nic.br
  <bean id="seeds" class="org.archive.modules.seeds.TextSeedModule">
   <property name="textSource">
    <bean class="org.archive.spring.ConfigFile">
-    <property name="path" value="seeds_mw.txt" />
+    <property name="path" value="seeds.txt" />
    </bean>
   </property>
   <property name='sourceTagSeeds' value='true'/>
@@ -138,12 +138,12 @@ http://nic.br
     <ref bean="acceptSurts" />
     <!-- ...but REJECT those more than a configured link-hop-count from start... -->
     <bean class="org.archive.modules.deciderules.TooManyHopsDecideRule">
-      <property name="maxHops" value="10" />
+      <property name="maxHops" value="0" />
     </bean>
     <!-- ...but ACCEPT those more than a configured link-hop-count from start... -->
     <bean class="org.archive.modules.deciderules.TransclusionDecideRule">
-     <property name="maxTransHops" value="2" />
-     <property name="maxSpeculativeHops" value="1" />
+     <property name="maxTransHops" value="0" />
+     <property name="maxSpeculativeHops" value="0" />
     </bean>
     <!-- ...but REJECT those from a configurable (initially empty) set of REJECT SURTs... -->
     <bean class="org.archive.modules.deciderules.surt.SurtPrefixedDecideRule">
