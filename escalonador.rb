@@ -24,6 +24,8 @@ class DynWebStats
     DynWebStats.load_mongoid_config config
 
     @config = crawl ? Config.find(crawl) : Config.last
+    @pages = []
+    @crawl_list = []
   end
 
   def self.new_crawl config, capacity, info, seeds
@@ -31,24 +33,44 @@ class DynWebStats
     Config.create!(capacity: capacity, instant: 1,
                    info: info, seeds: seeds)
 
-    # gera o primeiro seeds
-    #generate_crawl_file seeds, 1
 
     # cria estrutura interna de coleta
+    seeds.each do |s|
+      @pages << {
+        url: s,
+        previous_collection_t: 0,
+        next_crawl_t: 1
+      }
+    end
+
     # chama o run pra realizar o crawl
   end
 
   # gera estrutura interna de coleta a partir do db
   def get_pages_to_crawl
     t = @config.instant
-    crawl.last.pages.where(next_crawl_t: t)
+    #crawl.last.pages.where(next_crawl_t: t)
   end
 
   # decide o que coletar
   def scheduler
+    # ideal aqui eh ter uma função pra cada scheduler, ou uma classe
+    # abstrata. Por enquanto vamos fazer um fifo
+    @pages.sort!{|a,b| a[:previous_collection_t] <=> b[:previous_collection_t]}
+
+    capacity = @config[:capacity]
+
+    # verificar se capacidade eh menor ou maior
+    @pages[capacity..-1].each do
+      # postpone
+    end
+
+    @crawl_list = @pages[0..capacity]
   end
 
   def run
+    # pega a estrutura interna, roda scheduler e gera arquivo de coleta
+    # generate_crawl_file seeds, 1
   end
 
   # funções:
