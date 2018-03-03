@@ -3,6 +3,7 @@ require_relative 'hashReader/model'
 require_relative 'heritrix'
 require_relative 'warc'
 require_relative 'fifo'
+require_relative 'sift4'
 
 # escalonador
 # 1. instanciar variáveis iniciais (qual o T, qual a capacidade C, etc)
@@ -21,13 +22,15 @@ require_relative 'fifo'
 # saida eh uma lista de urls que serão coletadas
 
 class DynWebStats
+  FACTOR = 2
+
   def self.new_config mongoid_config, capacity, info, seeds
     DynWebStats.load_mongoid_config mongoid_config
     config = Config.create!(capacity: capacity, instant: 1, info: info, seeds: seeds)
 
     # coloca as seeds no fluxo normal de coleta
     seeds.each do |seed|
-      Page.create(url: seed, previous_collection_t: 0, next_crawl_t: 1, config: config)
+      Page.create(url: seed, previous_collection_t: 0, next_collection_t: 1, config: config)
     end
   end
 
@@ -40,7 +43,7 @@ class DynWebStats
     @path = Dir.pwd
     @job_name = job_name
     @heritrix = Heritrix.new(@path, @job_name)
-    @warc_path = "#{@path}/jobs/#{@job_name}/warcs/latest"
+    @warc_path = "#{@path}/jobs/#{@job_name}/latest/warcs"
 
     case sched
     when :fifo
@@ -58,12 +61,17 @@ class DynWebStats
     scheduler
     @heritrix.update_seeds(@pages.pluck(:url))
     @heritrix.start
+    binding.pry
     #TODO WAIT
     @heritrix.run_job
+    binding.pry
     #TODO WAIT
     @heritrix.stop
+    binding.pry
     #TODO WAIT
     parse_warcs
+
+    process_new_pages
 
     process_pages
     # update mongo(next_collection, previous_collect)
@@ -71,15 +79,56 @@ class DynWebStats
   end
 
   def process_pages
+    File.open("#{@warc_path}/0/resultados.json").each_line do |line|
+      json    = JSON.parse(line)
+      content = json["content"]
+      url     = json["WARC-Target-URI"]
+      size    = json["Content-Length"].to_i
+
+      next if url[/robots\.txt\z/]
+
+      page = Page.where(url: url).last
+
+      if page.nil?
+        puts "Página '#{url}' não existe no banco!"
+        next
+      end
+
+      last_size = page.size.last.to_i
+      page.size << size
+
+      min, max = [size, last_size].minmax
+
+      prop = 1 - min.to_f / max.to_f
+
+      page.update_attribute(:previous_collection_t, @config.instant)
+      old_content = page.content
+      page.update_attribute(:content, content)
+
+      new_instant = @config.instant
+
+      if old_content.nil? # Nunca foi coletada
+        new_instant += 1
+      elsif prop < 0.15 # Não tem diferença de tamanho significativa
+        new_instant *= FACTOR
+      elsif Sift4.calculate(content, old_content, 0.65, 0.90) > 0 # Mudou
+        new_instant += new_instant / FACTOR
+      end
+
+      page.update_attribute(:next_collection_t, new_instant)
+    end
+  end
+
+  def process_new_pages
     lista = []
 
     #db.paginas.createIndex({"url": 1}, { unique: true})
     File.read("#{@warc_path}/0/metadata").each_line do |line|
-      lista << { url: line.chomp, previous_collection_t: @scheduler.priority, next_crawl_t: @config.instant + 1, config: @config }
+      lista << { url: line.chomp, previous_collection_t: @scheduler.priority, next_collection_t: @config.instant + 1, config_id: @config.id }
     end
 
     begin
-      Page.collection.insert_many(lista_paginas, { ordered: false })
+      Page.collection.insert_many(lista, { ordered: false })
     rescue Mongo::Error::BulkWriteError # Existing pages
     end
   end
@@ -94,7 +143,7 @@ class DynWebStats
 
   # gera estrutura interna de coleta a partir do db
   def get_pages_to_crawl
-    @pages = @config.pages.where(next_crawl_t: @config.instant)
+    @pages = @config.pages.where(next_collection_t: @config.instant)
   end
 
   # decide o que coletar
@@ -104,14 +153,14 @@ class DynWebStats
     @crawl_list, @remainer = @scheduler.sched(@pages, capacity)
 
     if @remainer.any?
-      @remainer.update_attribute(:postpone, true)
+      @remainer.update_all(postpone: true)
     else
       postponed = @crawl.pages.where(postpone: true)
       @postponed_list, _ = @scheduler.sched(postponed, capacity - @crawl_list.size)
     end
 
     #TODO otimizar
-    @pages = @crawl_list + @postponed_list
+    @pages = @crawl_list.to_a + @postponed_list.to_a
     @crawl.pages = @pages
   end
 
@@ -125,7 +174,7 @@ if ARGV.size != 1
   exit -1
 end
 
-#config = DynWebStats.new_config(ARGV[0], 1000, "olar", ["www.agricultura.gov.br"])
+#config = DynWebStats.new_config(ARGV[0], 1000, "olar", ["http://www.agricultura.gov.br/"])
 dws = DynWebStats.new(ARGV[0], config: nil)
 dws.run
 binding.pry

@@ -2,7 +2,7 @@ require 'mongoid'
 
 class Crawl
   include Mongoid::Document
-  include Mongoid::Attributes::Dynamic
+  #include Mongoid::Attributes::Dynamic
   store_in collection: "coletas"
   belongs_to :config
 
@@ -30,7 +30,7 @@ end
 
 class Page
   include Mongoid::Document
-  include Mongoid::Attributes::Dynamic
+  #include Mongoid::Attributes::Dynamic
   store_in collection: "paginas"
 
   has_and_belongs_to_many :crawls
@@ -38,9 +38,9 @@ class Page
 
   field :url,                   type: String
   field :content,               type: String
-  field :distance,              type: Float,    default: nil
-  field :size,                  type: Array
-  field :crawl_status,          type: Integer,  default: 0
+  field :distance,              type: Float,   default: nil
+  field :size,                  type: Array,   default: []
+  field :crawl_status,          type: Integer, default: 0
   field :previous_collection_t, type: Integer
   field :next_collection_t,     type: Integer
 
@@ -59,6 +59,6 @@ class Config
   field :capacity,    type: Integer
   field :instant,     type: Integer
   field :info,        type: String
-  field :seeds,       type: Array
+  field :seeds,       type: Array, default: []
 end
 
