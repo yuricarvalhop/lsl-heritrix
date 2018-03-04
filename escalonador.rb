@@ -60,19 +60,11 @@ class DynWebStats
     get_pages_to_crawl
     scheduler
     @heritrix.update_seeds(@pages.pluck(:url))
-    @heritrix.start
-    binding.pry
-    #TODO WAIT
+    @heritrix.start_heritrix
     @heritrix.run_job
-    binding.pry
-    #TODO WAIT
-    @heritrix.stop
-    binding.pry
-    #TODO WAIT
+    @heritrix.stop_heritrix
     parse_warcs
-
     process_new_pages
-
     process_pages
     # update mongo(next_collection, previous_collect)
     # pega a estrutura interna, roda scheduler e gera arquivo de coleta
