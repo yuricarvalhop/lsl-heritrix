@@ -1,0 +1,39 @@
+#!/bin/env ruby
+
+$LOAD_PATH << File.expand_path(File.join('..', 'lib'), File.dirname(__FILE__))
+
+require 'optparse'
+require 'dyn_web_stats'
+
+options = {
+  config: false
+}
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: ruby escalonador.rb [-r | -c]"
+
+  opts.on("-n", "--new-config", "Creates a new configuration") do |n|
+    options[:config] = n
+  end
+
+  opts.on("-c", "--capacity C", "Maximum capacity (used only with '-n')") do |c|
+    options[:capacity] = c
+  end
+
+  opts.on("-d", "--description D", "Config description (used only with '-n')") do |d|
+    options[:description] = d
+  end
+
+  opts.on("-s", "--seeds S", "List of initial seeds separated with comma (used only witn '-n')") do |s|
+    options[:seeds] = s.split(",")
+  end
+end.parse!
+
+puts options
+exit
+
+config_file = File.expand_path(File.join('..', 'config/mongoid.conf'), File.dirname(__FILE__))
+
+#config = DynWebStats.new_config(ARGV[0], 1000, "olar", ["http://www.agricultura.gov.br/"])
+dws = DynWebStats.new(config_file, config: nil)
+dws.run

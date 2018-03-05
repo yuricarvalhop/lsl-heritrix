@@ -1,9 +1,8 @@
-require 'pry'
-require_relative 'hashReader/model'
-require_relative 'heritrix'
-require_relative 'warc'
-require_relative 'fifo'
-require_relative 'sift4'
+require 'models'
+require 'heritrix'
+require 'warc'
+require 'fifo'
+require 'sift4'
 
 # escalonador
 # 1. instanciar variáveis iniciais (qual o T, qual a capacidade C, etc)
@@ -172,16 +171,6 @@ class DynWebStats
     Mongoid.load!(config, :development)
   end
 end
-
-if ARGV.size != 1
-  puts "Usage: ruby escalonador.rb mongo_config"
-  exit -1
-end
-
-#config = DynWebStats.new_config(ARGV[0], 1000, "olar", ["http://www.agricultura.gov.br/"])
-dws = DynWebStats.new(ARGV[0], config: nil)
-dws.run
-binding.pry
 
 # primeira coleta  -> cria estrutura interna de coleta -> scheduler -> run -> pós processa resultado
 # proximas coletas -> pega dados do db e coloca na estrutura de coleta -> scheduler -> run -> pós processa resultado
