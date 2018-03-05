@@ -74,14 +74,35 @@ class Heritrix
 
   def run_job
     start_job
-    sleep 10 while is_job_running?
+
+    while status = get_job_status
+      @logger.info(
+        "Job #{@job_name} running: #{status[:downloaded]}/#{status[:total]} (#{status[:prop]}%)"
+      )
+      sleep WAIT_SEC
+    end
+
     stop_job
   end
 
-  def is_job_running?
-    #TODO
-    false
-    "Job is Active: RUNNING"
+  def get_job_status
+    out = `curl -s -k -u #{@auth} --digest --location #{@url}`
+
+    if out["Job is Active: RUNNING"]
+      matched = out.match(/([0-9.]+) downloaded \+ ([0-9.]+) queued = ([0-9.]+) total/)
+
+      ret = {
+        downloaded: matched[1].tr('.','').to_i,
+        queued: matched[2].tr('.','').to_i,
+        total: matched[3].tr('.','').to_i,
+      }
+
+      ret[:prop] = (100 * ret[:downloaded] / ret[:total].to_f).round(2)
+
+      ret
+    else
+      false
+    end
   end
 
   private
