@@ -441,8 +441,8 @@ http://nic.br
      <bean class="org.archive.crawler.frontier.precedence.BaseQueuePrecedencePolicy" />
    </property>
    <property name="snoozeLongMs" value="300000" />
-   <property name="retryDelaySeconds" value="900" />
-   <property name="maxRetries" value="30" />
+   <property name="retryDelaySeconds" value="60" />
+   <property name="maxRetries" value="15" />
    <property name="recoveryLogEnabled" value="true" />
    <property name="maxOutlinks" value="6000" />
    <property name="extractIndependently" value="false" />
@@ -505,10 +505,10 @@ http://nic.br
 <bean id='veryPolite' class='org.archive.spring.Sheet'>
   <property name='map'>
     <map>
-      <entry key='disposition.delayFactor' value='10'/>
-      <entry key='disposition.minDelayMs' value='10000'/>
-      <entry key='disposition.maxDelayMs' value='1000000'/>
-      <entry key='disposition.respectCrawlDelayUpToSeconds' value='3600'/>
+      <entry key='disposition.delayFactor' value='2'/>
+      <entry key='disposition.minDelayMs' value='500'/>
+      <entry key='disposition.maxDelayMs' value='1000'/>
+      <entry key='disposition.respectCrawlDelayUpToSeconds' value='10'/>
     </map>
   </property>
 </bean>

@@ -77,7 +77,7 @@ class DynWebStats
       url     = json["WARC-Target-URI"]
       size    = json["Content-Length"].to_i
 
-      next if url[/robots\.txt\z/]
+      next if ignore_pages url
 
       page = Page.where(url: url).last
 
@@ -116,6 +116,7 @@ class DynWebStats
 
     #db.paginas.createIndex({"url": 1}, { unique: true})
     File.read("#{@warc_path}/0/metadata").each_line do |line|
+      next if ignore_pages line
       lista << { url: line.chomp, previous_collection_t: @scheduler.priority, next_collection_t: @config.instant + 1, config_id: @config.id }
     end
 
@@ -123,6 +124,17 @@ class DynWebStats
       Page.collection.insert_many(lista, { ordered: false })
     rescue Mongo::Error::BulkWriteError # Existing pages
     end
+  end
+
+  def ignore_pages url
+    rules = [/\.(avi|wmv|mpe?g|mp3)\z/, /\.(rar|zip|tar|gz)\z/,
+     /\.(pdf|doc|xls|odt)\z/, /\.(xml)\z/, /\.(txt|conf|pdf)\z/,
+     /\.(swf)\z/, /\.(js|css)\z/, /\.(bmp|gif|jpe?g|png|svg|tiff?)\z/,
+     /robots\.txt\z/
+    ]
+
+    rules.each {|r| return true if(url =~ r)}
+    false
   end
 
   def parse_warcs
