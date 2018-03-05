@@ -33,16 +33,17 @@ class DynWebStats
     end
   end
 
-  def initialize mongoid_config, job_name: "mapaweb", sched: :fifo, config:
+  def initialize(mongoid_config, job_name: "mapaweb", sched: :fifo, config: nil, path:)
     DynWebStats.load_mongoid_config mongoid_config
 
     @config = config ? config : Config.last
     @pages = []
     @crawl_list = []
-    @path = Dir.pwd
+    @path = path
     @job_name = job_name
     @heritrix = Heritrix.new(@path, @job_name)
     @warc_path = "#{@path}/jobs/#{@job_name}/latest/warcs"
+    @warc_bin_path = "#{@path}/../extras/warc"
 
     case sched
     when :fifo
@@ -137,7 +138,7 @@ class DynWebStats
   end
 
   def parse_warcs
-    Warc.parse(@warc_path)
+    Warc.parse(@warc_bin_path, @warc_path)
   end
 
   def create_crawl

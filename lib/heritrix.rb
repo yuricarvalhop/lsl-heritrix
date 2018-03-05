@@ -38,8 +38,6 @@ class Heritrix
   end
 
   def stop_heritrix
-    stop_job
-
     loop do
       begin
         Process.kill('SIGTERM', @pid)
@@ -54,16 +52,11 @@ class Heritrix
   end
 
   def stop_job
-    terminate_job
     teardown_job
   end
 
   def teardown_job
     run_and_wait_action("teardown", "Job is Unbuilt")
-  end
-
-  def terminate_job
-    run_and_wait_action("terminate", "Job is Finished")
   end
 
   def start_job
@@ -118,12 +111,13 @@ class Heritrix
     while !run_action(action, msg: msg)
       tries += 1
 
+      @logger.info("Waiting for '#{action}' to be executed on '#{@job_name}'.")
+
       if tries == MAX_TRIES
         @logger.error("Could not execute '#{action}' on '#{@job_name}'. MAX_TRIES (#{MAX_TRIES}) reached.");
         exit
       end
 
-      @logger.info("Waiting for '#{action}' to be executed on '#{@job_name}'.")
       sleep WAIT_SEC
     end
 

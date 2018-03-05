@@ -22,7 +22,9 @@ crawl_cmd = Cri::Command.define do
   optional :m, :mongoid, 'mongoid config file', default: 'config/mongoid.yml'
 
   run do |opts, _|
-    dws = DynWebStats.new(opts[:mongoid], config: nil)
+    path = File.expand_path(File.join('..', 'heritrix'), File.dirname(__FILE__))
+
+    dws = DynWebStats.new(opts[:mongoid], path: path)
     dws.run
   end
 end
@@ -37,7 +39,7 @@ new_config_cmd = Cri::Command.define do
   optional :m, :mongoid, 'mongoid config file', default: 'config/mongoid.yml'
   optional :s, :seeds, 'initial seeds (separated with comma)'
 
-  run do |opts, _|
+  run do |opts, _, cmd|
     capacity = opts[:capacity].to_i
     description = opts[:description]
     seeds = opts[:seeds].to_s.split(',')
