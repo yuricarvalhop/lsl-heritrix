@@ -2,38 +2,74 @@
 
 $LOAD_PATH << File.expand_path(File.join('..', 'lib'), File.dirname(__FILE__))
 
-require 'optparse'
+require 'cri'
 require 'dyn_web_stats'
 
-options = {
-  config: false
-}
+root_cmd = Cri::Command.define do
+  name 'dyn_web_stats'
+  summary 'Dynamic web statistics'
 
-OptionParser.new do |opts|
-  opts.banner = "Usage: ruby escalonador.rb [-r | -c]"
-
-  opts.on("-n", "--new-config", "Creates a new configuration") do |n|
-    options[:config] = n
+  run do |_, _, cmd|
+    puts cmd.help
+    exit -1
   end
+end
 
-  opts.on("-c", "--capacity C", "Maximum capacity (used only with '-n')") do |c|
-    options[:capacity] = c
+crawl_cmd = Cri::Command.define do
+  name 'crawl'
+  summary 'Start next crawl'
+
+  optional :m, :mongoid, 'mongoid config file', default: 'config/mongoid.yml'
+
+  run do |opts, _|
+    dws = DynWebStats.new(opts[:mongoid], config: nil)
+    dws.run
   end
+end
 
-  opts.on("-d", "--description D", "Config description (used only with '-n')") do |d|
-    options[:description] = d
+new_config_cmd = Cri::Command.define do
+  name 'new_config'
+  summary 'Create a new configuration'
+
+  required :c, :capacity, 'maximum capacity'
+  required :d, :description, 'config description'
+  flag     :h, :help, 'show help'
+  optional :m, :mongoid, 'mongoid config file', default: 'config/mongoid.yml'
+  optional :s, :seeds, 'initial seeds (separated with comma)'
+
+  run do |opts, _|
+    capacity = opts[:capacity].to_i
+    description = opts[:description]
+    seeds = opts[:seeds].to_s.split(',')
+    mongoid = opts[:mongoid]
+
+    if !(capacity && description && seeds)
+      print cmd.help
+      exit -1
+    end
+
+    if capacity.zero?
+      puts 'Capacity must be a positive number'
+      exit -1
+    end
+
+    if description.nil?
+      puts 'Description must be a valid word'
+      exit -1
+    end
+
+    if seeds.empty?
+      puts 'Seeds must be a valid list'
+      exit -1
+    end
+
+    DynWebStats.new_config(mongoid, capacity, description, seeds)
+
+    puts "Config created with no errors"
   end
+end
 
-  opts.on("-s", "--seeds S", "List of initial seeds separated with comma (used only witn '-n')") do |s|
-    options[:seeds] = s.split(",")
-  end
-end.parse!
+root_cmd.add_command(crawl_cmd)
+root_cmd.add_command(new_config_cmd)
 
-puts options
-exit
-
-config_file = File.expand_path(File.join('..', 'config/mongoid.conf'), File.dirname(__FILE__))
-
-#config = DynWebStats.new_config(ARGV[0], 1000, "olar", ["http://www.agricultura.gov.br/"])
-dws = DynWebStats.new(config_file, config: nil)
-dws.run
+root_cmd.run(ARGV)
