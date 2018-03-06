@@ -20,12 +20,38 @@ crawl_cmd = Cri::Command.define do
   summary 'Start next crawl'
 
   optional :m, :mongoid, 'mongoid config file', default: 'config/mongoid.yml'
+  required :n, :name,    'config name'
+  flag     :h, :help,    'show help'
 
-  run do |opts, _|
+  run do |opts, _, cmd|
+    name = opts[:name]
+
+    if name.nil?
+      puts cmd.help
+      exit -1
+    end
+
     path = File.expand_path(File.join('..', 'heritrix'), File.dirname(__FILE__))
 
-    dws = DynWebStats.new(opts[:mongoid], path: path)
+    dws = DynWebStats.new(opts[:mongoid], path: path, config_name: name)
     dws.run
+  end
+end
+
+show_configs_cmd = Cri::Command.define do
+  name 'show_configs'
+  summary 'Show available configs'
+
+  optional :m, :mongoid, 'mongoid config file', default: 'config/mongoid.yml'
+  flag     :h, :help, 'show help'
+
+  run do |opts, _, cmd|
+    if opts[:help]
+      print cmd.help
+      exit -1
+    end
+
+    puts DynWebStats.configs(opts[:mongoid]).pluck(:name).compact.join("\n")
   end
 end
 
@@ -34,18 +60,18 @@ new_config_cmd = Cri::Command.define do
   summary 'Create a new configuration'
 
   required :c, :capacity, 'maximum capacity'
-  required :d, :description, 'config description'
+  required :n, :name, 'config name'
   flag     :h, :help, 'show help'
   optional :m, :mongoid, 'mongoid config file', default: 'config/mongoid.yml'
   optional :s, :seeds, 'initial seeds (separated with comma)'
 
   run do |opts, _, cmd|
     capacity = opts[:capacity].to_i
-    description = opts[:description]
+    name = opts[:name]
     seeds = opts[:seeds].to_s.split(',')
     mongoid = opts[:mongoid]
 
-    if !(capacity && description && seeds)
+    if !(capacity && name && seeds)
       print cmd.help
       exit -1
     end
@@ -55,8 +81,8 @@ new_config_cmd = Cri::Command.define do
       exit -1
     end
 
-    if description.nil?
-      puts 'Description must be a valid word'
+    if name.nil?
+      puts 'Name must be a valid word'
       exit -1
     end
 
@@ -65,7 +91,7 @@ new_config_cmd = Cri::Command.define do
       exit -1
     end
 
-    DynWebStats.new_config(mongoid, capacity, description, seeds)
+    DynWebStats.new_config(mongoid, capacity, name, seeds)
 
     puts "Config created with no errors"
   end
@@ -73,5 +99,6 @@ end
 
 root_cmd.add_command(crawl_cmd)
 root_cmd.add_command(new_config_cmd)
+root_cmd.add_command(show_configs_cmd)
 
 root_cmd.run(ARGV)

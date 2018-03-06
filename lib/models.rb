@@ -30,9 +30,11 @@ class Config
   has_many :crawls
   has_many :pages
 
+  validates_uniqueness_of :name
+
   field :capacity, type: Integer
   field :instant,  type: Integer
-  field :info,     type: String
+  field :name,     type: String
   field :seeds,    type: Array, default: []
 end
 

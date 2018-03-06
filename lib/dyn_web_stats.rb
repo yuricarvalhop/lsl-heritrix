@@ -23,9 +23,14 @@ require 'sift4'
 class DynWebStats
   FACTOR = 2
 
-  def self.new_config mongoid_config, capacity, info, seeds
+  def self.configs mongoid_config
     DynWebStats.load_mongoid_config mongoid_config
-    config = Config.create!(capacity: capacity, instant: 1, info: info, seeds: seeds)
+    Config.all
+  end
+
+  def self.new_config mongoid_config, capacity, name, seeds
+    DynWebStats.load_mongoid_config mongoid_config
+    config = Config.create!(capacity: capacity, instant: 1, name: name, seeds: seeds)
 
     # coloca as seeds no fluxo normal de coleta
     seeds.each do |seed|
@@ -33,10 +38,9 @@ class DynWebStats
     end
   end
 
-  def initialize(mongoid_config, job_name: "mapaweb", sched: :fifo, config: nil, path:)
+  def initialize(mongoid_config, job_name: "mapaweb", sched: :fifo, path:, config_name:)
     DynWebStats.load_mongoid_config mongoid_config
 
-    @config = config ? config : Config.last
     @pages = []
     @crawl_list = []
     @path = path
@@ -44,6 +48,13 @@ class DynWebStats
     @heritrix = Heritrix.new(@path, @job_name)
     @warc_path = "#{@path}/jobs/#{@job_name}/latest/warcs"
     @warc_bin_path = "#{@path}/../extras/warc"
+
+    begin
+      @config = Config.find_by(name: config_name)
+    rescue Mongoid::Errors::DocumentNotFound
+      puts "Configuração de nome '#{config_name}' não encontrada!"
+      exit -1
+    end
 
     case sched
     when :fifo
